@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+.vid{
+    /* border-radius: 3vh 2vh 2vh 3vh; */
+    margin-top: 13vh;
+    margin-left: 5px;
+}
+.vid img{
+    margin-top: 8vh;
+    margin-right: 1vh;
+    width: 45vh;
+}

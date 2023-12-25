@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bar {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(133, 23, 23);
+  padding: 1vh;
+}
+.menu {
+  margin-left: 1vh;
+}
+.menu-bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+}
+.title {
+  color: white;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.avtar img {
+  width: 5.4vh;
+  margin-right: -4vh;
+}
+.profile-container {
+  margin-top: 2vh;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+.profile-container .info img {
+  border-radius: 1vh;
+  border: 1px solid silver;
+}
+.info img {
+  width: 40vh;
+}
+
+/* -----result publish----- */
+.profile-container2 {
+  margin-top: 2vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  height: 36vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  border-radius: 2vh;
+  border: 1px solid black;
+  background-color: white;
+}
+.profile-container2 .info2 img {
+  border-radius: 1vh;
+  border: 1px solid silver;
+}
+.title-bar h4{
+    padding-top: 1vh;
+    background-color: rgb(214, 17, 155);
+  border-radius: 2vh 2vh 0vh 0vh;
+    font-size: 2.3vh;
+    /* background-color: rgb(200, 198, 199); */
+    height: 5vh;
+    /* margin-left: 2vh; */
+}
+.site-link{
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.site-link a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2.2vh;
+    font-weight: bold;
+}
+.site-link .dwld{
+    margin-left: 5vh;    
+    /* font-size: 3vh; */
+}
+.footer h4{
+    margin-top: 2vh;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.footer img{
+    margin-top: 2vh;
+    margin-left: 2vh;
+    width: 43vh;
+}
+.university h4{
+    color: white;
+    background-color: brown;
+}
